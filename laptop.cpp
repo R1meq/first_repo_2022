@@ -2,10 +2,10 @@
 
 void Laptop::setSizeDisplay(double sizeDisplay)
 {
-	this->sizeDisplay = sizeDisplay;
+	sizeDisplay = sizeDisplay;
 }
 
-double Laptop::getSizeDisplay(void) const
+double Laptop::getSizeDisplay(void) 
 {
 	return sizeDisplay;
 }
@@ -79,5 +79,3 @@ Laptop::~Laptop()
 {
 	cout << "Destructor executed" << endl;
 }
-
-
